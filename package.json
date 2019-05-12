@@ -1,0 +1,44 @@
+{
+	"name": "dandrea-one",
+	"displayName": "dandrea one",
+	"description": "A set of colors I'm confortable with.",
+	"version": "1.0.0",
+	"publisher": "dandrea",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "dandrea-one",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dandrea-one-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "",
+		"url": ""
+	},
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "./README.md",
+	"keywords": [
+		"Vscode",
+		"Theme",
+		"Onedark",
+		"Monokai"
+	],
+	"author": "fernando.dandrea@gmail.com",
+	"license": "MIT",
+	"__metadata": {
+		"id": "b027c4b3-35ad-36db-b573-05dae3b2dc93",
+		"publisherId": "35cdca6a-b423-3806-9043-a44a52d1a7d3",
+		"publisherDisplayName": "Fernando D'Andrea"
+	}
+}
