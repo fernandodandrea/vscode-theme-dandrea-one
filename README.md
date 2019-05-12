@@ -1,7 +1,7 @@
 # dandrea-one
 
 dandrea one theme is the color theme based on the one I've set up in Visual Studio and then ported to VS Code. Feel free to use.
-
+ The font is [Iosevka Light](https://github.com/be5invis/Iosevka).
 ![Theme on Python code](https://github.com/fernandodandrea/vscode-theme-dandrea-one/blob/master/screenshot-v1.0.0.png)
 
 ## Install
