@@ -357,7 +357,7 @@
 		},
 		{
 			"name": "Punctuation separators",
-			"scope": ["punctuation.separator.arguments", "punctuation.separator.parameters", "punctuation.separator.colon"],
+			"scope": ["punctuation.section", "punctuation.separator.arguments", "punctuation.separator.parameters", "punctuation.separator.colon"],
 			"settings": {
 				"foreground": "#ff2060",
 				"fontStyle": "bold"
