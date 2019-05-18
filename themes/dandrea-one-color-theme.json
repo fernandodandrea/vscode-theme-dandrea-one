@@ -307,22 +307,22 @@
 				"fontStyle": ""
 			}
 		},
-		{
-			"name": "Variable",
-			"scope": "variable",
-			"settings": {
-				"foreground": "#A0C0ff",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Variable other",
-			"scope":"variable.other.readwrite",
-			"settings": {
-				"foreground": "#A0C0ff",
-				"fontStyle": ""
-			}
-		},
+		// {
+		// 	"name": "Variable",
+		// 	"scope": "variable",
+		// 	"settings": {
+		// 		"foreground": "#A0C0ff",
+		// 		"fontStyle": ""
+		// 	}
+		// },
+		// {
+		// 	"name": "Variable other",
+		// 	"scope":"variable.other.readwrite",
+		// 	"settings": {
+		// 		"foreground": "#A0C0ff",
+		// 		"fontStyle": ""
+		// 	}
+		// },
 		{
 			"name": "Variable other",
 			"scope":"variable.other.object",
@@ -341,7 +341,7 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": ["keyword", "constant.language", "keyword.operator.logical"],
+			"scope": ["keyword", "constant.language", "keyword.operator.logical.python"],
 			"settings": {
 				"foreground": "#60A0E0",
 				"fontStyle": "italic bold",
@@ -361,6 +361,13 @@
 			"settings": {
 				"foreground": "#ff2060",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": ["punctuation.separator", "punctuation.terminator", "punctuation.parenthesis", "punctuation.curlybrace", "punctuation.squarebracket"],
+			"settings": {
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -438,13 +445,22 @@
 			}
 		},
 		{
-			"name": "Function name",
-			"scope": ["entity.name.function"],
+			"name": "Preprocessor",
+			"scope":["keyword.preprocessor", "meta.preprocessor"],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#25ff99"
+				"foreground": "#008165",
+				"fontStyle": "italic"
 			}
-		},		{
+		},
+		// {
+		// 	"name": "Function name",
+		// 	"scope": ["entity.name.function"],
+		// 	"settings": {
+		// 		//"fontStyle": "bold",
+		// 		"foreground": "#80e0b0"
+		// 	}
+		// },
+		{
 			"name": "Function call",
 			"scope": ["meta.function-call.generic"],
 			"settings": {
