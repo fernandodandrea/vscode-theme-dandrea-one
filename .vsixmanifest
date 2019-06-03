@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="one-monokai" Version="0.3.7" Publisher="azemoh"/>
+    <Identity Language="en-US" Id="dandrea-one" Version="1.0.2" Publisher="fernandodandrea"/>
     <DisplayName>dandrea one</DisplayName>
     <Description xml:space="preserve">dandrea one theme is the color theme based on the one I've set up in Visual Studio and then ported to VS Code.</Description>
     <Tags>Vscode,Theme,theme,color-theme</Tags>
