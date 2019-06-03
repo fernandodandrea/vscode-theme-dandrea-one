@@ -1,6 +1,6 @@
 {
 	"name": "dandrea-one",
-	"displayName": "dandrea one",
+	"displayName": "dandrea-one",
 	"description": "A set of colors I'm confortable with.",
 	"version": "1.0.2",
 	"publisher": "dandrea",
@@ -21,24 +21,20 @@
 		]
 	},
 	"repository": {
-		"type": "",
-		"url": ""
+		"type": "git",
+		"url": "https://github.com/fernandodandrea/vscode-theme-dandrea-one.git"
 	},
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/fernandodandrea/vscode-theme-dandrea-one/issues"
 	},
-	"homepage": "./README.md",
+	"homepage": "https://github.com/fernandodandrea/vscode-theme-dandrea-one",
 	"keywords": [
 		"Vscode",
 		"Theme",
-		"Onedark",
+		"dark",
 		"Monokai"
 	],
 	"author": "fernando.dandrea@gmail.com",
 	"license": "MIT",
-	"__metadata": {
-		"id": "b027c4b3-35ad-36db-b573-05dae3b2dc93",
-		"publisherId": "35cdca6a-b423-3806-9043-a44a52d1a7d3",
-		"publisherDisplayName": "fernandodandrea"
 	}
 }
