@@ -272,7 +272,7 @@
 			"name": "String",
 			"scope": ["string"],
 			"settings": {
-				"foreground": "#0040F0"
+				"foreground": "#0080F0"
 			}
 		},
 		{
