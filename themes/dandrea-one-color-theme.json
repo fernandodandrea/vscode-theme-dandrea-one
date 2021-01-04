@@ -290,6 +290,13 @@
 				"foreground": "#ff80b0"
 			}
 		},
+		{
+			"name": "Number",
+			"scope": "*.variable.enum-member",
+			"settings": {
+				"foreground": "#ff80b0"
+			}
+		},
 
 		{
 			"name": "Built-in constant",
@@ -404,7 +411,7 @@
 		},
 		{
 			"name": "Local Variable name",
-			"scope": "entity.name.variable.local",
+			"scope": ["entity.name.variable.local", "*.variable.local"],
 			"settings": {
 				"foreground": "#5E94A2",
 				"fontStyle": ""
@@ -485,10 +492,10 @@
 		},
 		{
 			"name": "Function argument",
-			"scope": "variable.parameter",
+			"scope": ["variable.parameter", "*.variable.parameter"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FD971F"
+				"foreground": "#dc7223"
 			}
 		},
 		{
@@ -535,14 +542,14 @@
 			"scope": "invalid",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#FF4000"
+				"foreground": "#FF0000"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#FF0040"
+				"foreground": "#FF4000"
 			}
 		},
 		{
@@ -644,5 +651,28 @@
 				"foreground": "#b267e6"
 			}
 		}
-	]
+	],
+	"semanticTokenColors": {
+		"namespace": "#d2ff9f",
+		"type": "#32E4D2",
+		"type.defaultLibrary":{
+			"foreground": "#60c8e0",
+			"fontStyle": "italic bold"
+		},
+		"class.defaultLibrary":{
+			"foreground": "#60c8e0",
+			"fontStyle": "italic bold"
+		},
+		"enum": "#B8D7A3",
+		"enumMember": {
+			"foreground": "#ff80b0",
+			"fontStyle": "italic bold"
+		},
+		"method": "#d7bca3",
+		"variable.readonly": "#ff5040",
+		"variable.readonly.defaultLibrary": "#ff5040",
+		"parameter": "#dc7223",
+		"variable.local":"#5E94A2",
+		"local": "#5E94A2"
+	}
 }
