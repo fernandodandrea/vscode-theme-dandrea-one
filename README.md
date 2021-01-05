@@ -8,7 +8,8 @@ dandrea one theme is the color theme based on the one I've set up in Visual Stud
 
 press `control/command + shift + p` to launch the command palette then run
 
-```ext install dandrea-one
+```
+ext install dandrea-one
 ```
 
 ## Change log
