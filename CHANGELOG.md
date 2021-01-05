@@ -3,6 +3,10 @@
 
 All notable changes to the "dandrea-one" extension will be documented in this file.
 
+## v1.1.1
+
+- Turned semantic engine on.
+
 ## v1.1.0
 
 - Added some semantic highlight, supported in VS Code 1.43 and on.

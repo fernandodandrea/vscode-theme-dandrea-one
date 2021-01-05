@@ -2,8 +2,8 @@
 	"name": "dandrea-one",
 	"displayName": "dandrea-one",
 	"description": "A set of colors I'm confortable with.",
-	"version": "1.1.0",
-	"publisher": "dandrea",
+	"version": "1.1.1",
+	"publisher": "fernandodandrea",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
