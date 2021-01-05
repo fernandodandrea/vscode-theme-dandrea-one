@@ -3,9 +3,13 @@
 
 All notable changes to the "dandrea-one" extension will be documented in this file.
 
+## v1.1.2
+
+- Fixed overlapping coloring. Further improved management of what's colored by syntax and by semantics.
+
 ## v1.1.1
 
-- Turned semantic engine on.
+- Turned semantic engine on. :-D
 
 ## v1.1.0
 
