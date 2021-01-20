@@ -120,7 +120,7 @@
 			"settings": { "foreground": "#A0FF80", "fontStyle": "" }
 		}, {
 			"name": "Function argument", "scope": ["variable.parameter", "*.variable.parameter"],
-			"settings": { "foreground": "#DC7223", "fontStyle": "italic" }
+			"settings": { "foreground": "#DC7223", "fontStyle": "" }
 		}, {
 			"name": "Tag name", "scope": "entity.name.tag",
 			"settings": { "foreground": "#F92672", "fontStyle": "" }
@@ -202,7 +202,7 @@
 		"type.defaultLibrary":{ "foreground": "#60A0E0", "fontStyle": "italic bold" },
 		"typeParameter": "#A0FF80",
 		"enum": "#A0FF80",
-		"enumMember": { "foreground": "#ff80b0", "fontStyle": "italic bold" },
+		"enumMember": { "foreground": "#ff80b0", "fontStyle": "italic" },
 		"number": "#ff80b0",
 		"comment": "#48a723",
 		"string": "#0080F0",
